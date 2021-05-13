@@ -43,6 +43,16 @@ button{
 	height: 200%;
 	cursor: pointer;
 }
+	
+.left{
+	background-color: #26bba5;
+	color: #f4f4f4;
+}
+
+.right{
+	background-color: #6174ff;
+	color: #f4f4f4;
+}	
 
 ul{
 	cursor: pointer;
