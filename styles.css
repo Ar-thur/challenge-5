@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
+/*this is the mobile sized css*/
+
+html, body{margin:0; height:100%;}
+
+header {
+    height:50vh;
+    background:url("images/bg-header-mobile.png") 50% / cover
+}
+
+body{
+	font-family: 'Bai Jamjuree', sans-serif;
+	color: #454a4d;
+}
+
+h1{
+	font-weight: 600;
+}
+
+
+/*desktop sized css*/
+@media (min-width: 500px){
+
+body{
+	font-family: 'Bai Jamjuree', sans-serif;
+	text-align: center;
+}
+html, body{margin:0; height:100%;}
+
+header {
+    height:44vh;
+    background:url("images/bg-header-desktop.png") 50% / cover
+}
+
+.logo{
+	padding: 10% 0% 
+}
+
+button{
+	border:1px solid;
+	border-radius: 20px;
+	width: 130%;
+	height: 200%;
+	cursor: pointer;
+}
+
+ul{
+	cursor: pointer;
+}
+
+button.lb{
+	background-color: yellow;
+}
+
+.buttons{
+	display: inline-flex;
+	padding: 2% 0% 5% 0%;
+	width: 25%;
+}
+
+.lb{
+	padding: 0% 15% 0% 0%;
+	/*padding-right:50%;*/ 
+}
+
+.container-1{
+	padding:0% 0% 5% 0%;
+}
+
+.container-2{
+	display: inline-flex;
+	width: 100%;
+	padding-bottom: 8%;
+}
+
+.device{
+	padding-top: 4%;
+}
+
+.desktop{
+	padding-right: 5%;
+}
+
+.paragraph{
+	padding-top: 5%;
+}
+
+.paragraph{
+	text-align: left;
+}
+
+.container-4{
+	display: inline-flex;
+}
+
+.container-5{
+	display: inline-flex;
+}
+
+.lgg{
+	float: left;
+}
+
+.words{
+	display: flex;
+}
+
+.social{
+	float: right;
+}
+
+.container-4{
+	padding-top: 8%;
+	padding-bottom: 8%;
+	width: 80%;
+}
+
+.box{
+	padding-right: 4%;
+}
+
+.box-1{
+	padding-right: 3%;
+}
+
+
+.container-5{
+	padding-bottom: 8%;
+	width: 100%;
+}
+
+.google{
+	padding: 0% 3% 0% 18%
+}
+
+.ibm{
+	padding: 0% 3% 0% 0%
+}
+
+.microsoft{
+	padding: 0% 3% 0% 0%
+}
+
+.hp{
+	padding: 0% 6% 0% 0%
+}
+
+.vg{
+	padding: 0% 0% 0% 0%
+}
+
+footer{
+	background-color: #f4f4f4;
+	height: 20vh;
+}
+
+.words{
+	padding-top: 
+	2%;
+}
+
+}
